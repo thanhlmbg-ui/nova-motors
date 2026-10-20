@@ -55,16 +55,14 @@ Website showroom ô tô hạng sang chính thức cho thương hiệu hư cấu 
 ## ⚡ Hướng Dẫn Khởi Chạy
 
 ```bash
-# 1. Điều hướng vào thư mục dự án
-cd "C:\Users\Admin\.gemini\antigravity\scratch\nova-motors"
 
-# 2. Cài đặt các gói phụ thuộc (nếu chưa cài)
+# 1. Cài đặt các gói phụ thuộc (nếu chưa cài)
 npm.cmd install
 
-# 3. Chạy môi trường phát triển (Dev Server)
+# 2. Chạy môi trường phát triển (Dev Server)
 npm.cmd run dev
 
-# 4. Hoặc biên dịch & xem bản phân phối tối ưu (Production Preview)
+# 3. Hoặc biên dịch & xem bản phân phối tối ưu (Production Preview)
 npm.cmd run build
 npm.cmd run preview -- --port 3000 --host
 ```
